@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Guess My Number | Tolgahan Tolu</title>
+
+	<!-- google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
+	<!-- fontawesome 6.1.0 -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+		integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-- style css -->
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+
+	<aside>
+		<button class="btn again">
+			<i class="fa-solid fa-rotate"></i>
+		</button>
+		<a href="#">
+			<button class="btn github">
+				<i class="fa-brands fa-github"></i>
+			</button>
+		</a>
+		<a href="#">
+			<button class="btn linkedin">
+				<i class="fa-brands fa-linkedin"></i>
+			</button>
+		</a>
+	</aside>
+
+	<main>
+		<header>
+			<h2>Guess My Number!</h2>
+			<p class="between">(Between 1 and 20)</p>
+		</header>
+
+		<section class="top">
+			<div class="number">?</div>
+			<p class="message">Start guessing...</p>
+			<input type="number" class="guess" />
+			<button class="btn check">Check!</button>
+		</section>
+
+		<section class="bottom">
+			<p class="label-score">Score: <span class="score">20</span> </p>
+			<p class="label-highscore">Highscore: <span class="highscore">20</span> </p>
+		</section>
+	</main>
+
+	<!-- app js -->
+	<script type="text/javascript" src="./app.js"></script>
+</body>
+
+</html>
